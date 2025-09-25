@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Banner = () => {
@@ -14,6 +15,11 @@ const Banner = () => {
                 <div className='w-[609px] '>
                     <h2>Product Collection</h2>
                     <div><p>Welcome to our online fashion haven, where we invite you to embark on a thrilling journey of discovery. We understand that fashion is an expression of your unique personality, and we've curated an extensive collection of dresses, shoes, and more to help you find your new favorites.</p></div>
+
+                    <div>
+                        <div className='w-[113px] border border-[#6A6C68]'>   <Link href={'/'} ></Link>  </div>
+                        <div className='w-[113px] border border-[#6A6C68]'>   <Link href={'/'} ></Link>  </div>
+                    </div>
 
                 </div>
 
