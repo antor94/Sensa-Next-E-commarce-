@@ -15,6 +15,17 @@ const Navbar = () => {
 
                 {/* -------------- images */}
                 <Link href={'/'} ><img src={mainLogo} alt="main-logo" /></Link>
+
+                {/* ------------- nav-items */}
+                <div>
+                    <ul>
+                        <li><Link href={'/'}>Home</Link></li>
+                        <li><Link href={'/'}>Product</Link></li>
+                        <li><Link href={'/'}>Blog</Link></li>
+                        <li><Link href={'/'}>About us</Link></li>
+                        <li><Link href={'/'}>About us</Link></li>
+                    </ul>
+                </div>
             
             </div>
         </div>
