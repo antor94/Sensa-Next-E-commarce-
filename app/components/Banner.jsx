@@ -10,7 +10,10 @@ const Banner = () => {
         <div className="container">
             <div id='banner-row'>
 
-                {/* ------------ */}
+                {/* ------------ left-side */}
+                <div className='w-[609px] '>
+
+                </div>
 
 
 
