@@ -2,12 +2,12 @@
 
 
 import React from 'react'
-import mainLogo from '../../public/images/mainLogo.png'
 import Link from 'next/link'
 import { MdSearch } from "react-icons/md";
 import { FaRegHeart } from "react-icons/fa6";
 import { TbShoppingCart } from "react-icons/tb";
 import { CgProfile } from "react-icons/cg";
+import Image from 'next/image';
 
 const Navbar = () => {
   return (
@@ -21,7 +21,8 @@ const Navbar = () => {
             <div id='navbar-row' className='flex justify-between items-center'>
 
                 {/* -------------- images */}
-                <Link href={'/'} ><img src={mainLogo} alt="main-logo" /></Link>
+
+                <Link href='/' className=' w-30 ' > <Image  src="/images/mainLogo.png" width={500} height={50}  alt="main-logo"  /></Link>
 
                 {/* ------------- nav-items */}
                 <div>

@@ -21,6 +21,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
+
+      data-new-gr-c-s-check-loaded="14.1250.0"
+        data-gr-ext-installed={true}
+
+        
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}  >
 
           <Navbar />
