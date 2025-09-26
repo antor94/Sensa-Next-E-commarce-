@@ -17,7 +17,7 @@ const ReviewCommon = ({reImg , reName , reP , reDis , reDate}) => {
             <div>
 
             <h2 className='text-[22px] font-normal font-main text-main'>{reName}</h2>
-            <p className='text-[16px] font-normal font-main text-main'>{reP}<span className='text-[12px]'>{reDate}</span></p>
+            <p className='text-[16px] font-normal font-main text-main'>{reP} . <span className='text-[12px]'>{reDate}</span></p>
             </div>
         </div>
         <div className='w-[442px] my-[28px]'><p className='text-[16px] font-normal font-main text-main'>{reDis}</p></div>
