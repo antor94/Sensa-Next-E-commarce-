@@ -7,7 +7,7 @@ const Review = () => {
     <>
     
     
-    <section id='Review'>
+    <section id='Review' className='py-[60px]'>
         <div className="container">
             <div className='text-center flex justify-center'> <div className='w-[210px] '> <CommonHead comH2={'Review About Sansa'} /></div>  </div>
 
