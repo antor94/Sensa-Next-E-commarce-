@@ -6,7 +6,7 @@ const CommonHead = () => {
     
     
     
-    <h1 className='text-[22px] font-normal font-main text-main'>Review About Sansa</h1>
+    <h1 className=' text-[22px] font-normal border-b pb-[6px] border-[#8AC732] font-main text-main'>Review About Sansa</h1>
     
     
     

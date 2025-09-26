@@ -1,4 +1,5 @@
 import React from 'react'
+import CommonHead from './common/CommonHead'
 
 const Products = () => {
   return (
@@ -10,7 +11,7 @@ const Products = () => {
     <section className='bg-[#F3F3F3]'>
         <div className="container">
             <div>
-gxfg
+                <CommonHead />
             </div>
         </div>
     </section>
