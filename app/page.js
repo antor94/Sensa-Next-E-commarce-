@@ -3,6 +3,7 @@ import Banner from './components/Banner'
 import Products from './components/Products'
 import Review from './components/Review'
 import Picking from './components/Picking'
+import Contact from './components/Contact'
 
 const page = () => {
   return (
@@ -13,6 +14,7 @@ const page = () => {
     <Products />
     <Review />
     <Picking />
+    <Contact />
     
     
     

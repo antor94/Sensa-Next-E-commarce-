@@ -10,7 +10,7 @@ const Picking = () => {
         <div className="container">
             <div className='text-center flex justify-center'> <div className='w-[200px] '> <CommonHead comH2={'Why You Picking Us'} /></div>  </div>
 
-            <div id='Picking-row'>
+            <div id='Picking-row' className='flex gap-[81px] justify-center'>
 
                 <div className='w-[209px] h-[144px] border border-[#C5C8B9] rounded-[12px]'>
                     <div className='p-[24px]'>
@@ -29,9 +29,9 @@ const Picking = () => {
                 </div>
 
 
-                <div className='w-[209px] h-[144px] border border-[#C5C8B9] rounded-[12px]'>
+                <div className='w-[177px] h-[144px] border border-[#C5C8B9] rounded-[12px]'>
                     <div className='p-[24px]'>
-                        <h2 className='text-[57px] font-bold font-main text-green'>350++</h2>
+                        <h2 className='text-[57px] font-bold font-main text-green'>350+</h2>
                         <p className='text-[16px] font-normal font-main text-[#8D918C]'>Partners</p>
                     </div>
 
