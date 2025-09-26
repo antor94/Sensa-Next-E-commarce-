@@ -9,9 +9,12 @@ const Products = () => {
     
     
     
-    <section id='product' className='bg-[#F3F3F3]'>
+    <section id='product' className='bg-[#F3F3F3] py-[60px]'>
         <div className="container">
-                <CommonHead />
+            <div className='text-center flex justify-center'>
+            <div className='w-[272px] '> <CommonHead comH2={'How To Order Our Products'} /></div>
+
+            </div>
             <div id='product-row'>
 
                 <ProductsCommon />
