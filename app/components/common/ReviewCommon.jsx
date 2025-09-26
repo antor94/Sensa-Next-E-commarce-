@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import { IoStar } from "react-icons/io5";
 
-const ReviewCommon = ({reImg , reName , reP , reDis}) => {
+const ReviewCommon = ({reImg , reName , reP , reDis , reDate}) => {
   return (
 
 
@@ -16,11 +16,11 @@ const ReviewCommon = ({reImg , reName , reP , reDis}) => {
             <div><Image src={reImg} width={75} height={75} alt='logo' ></Image></div>
             <div>
 
-            <h2 className='text-[22px] font-normal font-main text-main'>Andria Amesa</h2>
-            <p className='text-[16px] font-normal font-main text-main'>Customer <span className='text-[12px]'>. Agu 22 2023</span></p>
+            <h2 className='text-[22px] font-normal font-main text-main'>{reName}</h2>
+            <p className='text-[16px] font-normal font-main text-main'>{reP}<span className='text-[12px]'>{reDate}</span></p>
             </div>
         </div>
-        <div className='w-[442px] my-[28px]'><p className='text-[16px] font-normal font-main text-main'>I purchased a laptop from Sansa website and it exceeded my expectations. The website was user-friendly, and the laptop's quality and performance were outstanding. Customer service was responsive and helpful. Shipping was fast and packaging was secure. With competitive pricing and overall satisfaction, I highly recommend Sansa.</p></div>
+        <div className='w-[442px] my-[28px]'><p className='text-[16px] font-normal font-main text-main'>{reDis}</p></div>
 
 
 <div className='flex gap-[8px]'>
