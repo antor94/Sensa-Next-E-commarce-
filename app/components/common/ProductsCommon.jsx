@@ -11,8 +11,11 @@ const ProductsCommon = () => {
 
 
                      <div><Image  src="/images/proImg1.png" width={500} height={500}  alt="main-logo"  /></div>
-                     <h2 className='text-[32px] font-medium font-main text-main'>Select Product </h2>
+                     <div className='text-center mt-[24px]'>
+
+                     <h2 className='text-[32px] mb-[12px] font-medium font-main text-main'>Select Product </h2>
                      <div className='w-[260px]'><p className='text-[16px] font-normal font-main text-[#484A47]'>Choosing product you want to purchase and pay with payment method such as credit card or google pays</p></div>
+                     </div>
         
         </div>
 
