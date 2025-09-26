@@ -1,13 +1,15 @@
 import React from 'react'
 
-const CommonHead = () => {
+const CommonHead = ({comH2}) => {
   return (
     <>
     
     
+    <div className=' border-b pb-[6px] border-[#8AC732]'>
+
+    <h1 className=' text-[22px] font-normal  font-main text-main'>{comH2}</h1>
     
-    <h1 className=' text-[22px] font-normal border-b pb-[6px] border-[#8AC732] font-main text-main'>Review About Sansa</h1>
-    
+    </div>
     
     
     

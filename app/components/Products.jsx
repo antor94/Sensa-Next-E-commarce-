@@ -8,10 +8,10 @@ const Products = () => {
     
     
     
-    <section className='bg-[#F3F3F3]'>
+    <section id='product' className='bg-[#F3F3F3]'>
         <div className="container">
-            <div>
                 <CommonHead />
+            <div id='product-row'>
             </div>
         </div>
     </section>
