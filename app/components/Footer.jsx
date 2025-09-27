@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
@@ -20,6 +21,11 @@ const Footer = () => {
 
                 <div className='foo-col-2'>
                     <h2 className='text-[22px] font-normal font-main text-main'>Connects</h2>
+                    <div>
+                        <ul>
+                            <li><Link href={'/'} >facebook</Link></li>
+                        </ul>
+                    </div>
 
                 </div>
 
