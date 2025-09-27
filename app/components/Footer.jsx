@@ -1,5 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
+import { FiFacebook } from "react-icons/fi";
+
+
+
 
 const Footer = () => {
   return (
@@ -24,6 +28,9 @@ const Footer = () => {
                     <div>
                         <ul>
                             <li><Link href={'/'} >facebook</Link></li>
+                            <li><Link href={'/'} >Instagram</Link></li>
+                            <li><Link href={'/'} >LinkedIn</Link></li>
+                            <li><Link href={'/'} >x</Link></li>
                         </ul>
                     </div>
 
