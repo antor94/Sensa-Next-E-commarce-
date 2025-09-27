@@ -1,7 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
 import { FiFacebook } from "react-icons/fi";
-
+import { GrInstagram } from "react-icons/gr";
+import { AiOutlineLinkedin } from "react-icons/ai";
+import { TbBrandTwitter } from "react-icons/tb";
 
 
 
@@ -27,7 +29,7 @@ const Footer = () => {
                     <h2 className='text-[22px] font-normal font-main text-main'>Connects</h2>
                     <div>
                         <ul>
-                            <li><Link href={'/'} >facebook</Link></li>
+                            <li><Link href={'/'} > <FiFacebook /> facebook</Link></li>
                             <li><Link href={'/'} >Instagram</Link></li>
                             <li><Link href={'/'} >LinkedIn</Link></li>
                             <li><Link href={'/'} >x</Link></li>
