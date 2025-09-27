@@ -18,6 +18,11 @@ const Footer = () => {
 
                 </div>
 
+                <div className='foo-col-2'>
+                    <h2 className='text-[22px] font-normal font-main text-main'>Connects</h2>
+
+                </div>
+
             </div>
         </div>
     </section>
