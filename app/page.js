@@ -4,6 +4,8 @@ import Products from './components/Products'
 import Review from './components/Review'
 import Picking from './components/Picking'
 import Contact from './components/Contact'
+import SellerProduct from './components/SellerProduct'
+
 
 const page = () => {
   return (
@@ -14,6 +16,8 @@ const page = () => {
     <Products />
     <Review />
     <Picking />
+    <SellerProduct />
+
     <Contact />
     
     
